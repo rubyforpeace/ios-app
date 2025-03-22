@@ -8,9 +8,9 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
-
-⚖️ Court case contact managment app for learning development (L&D).
-
+<p align="center">
+⚖️ Court case contact managment app for learning development (L&D) 🔨
+</p>
 <!-- GETTING STARTED -->
 
 ## 🚀 Getting Started
