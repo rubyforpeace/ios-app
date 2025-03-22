@@ -1,5 +1,5 @@
 <h1 align="center">
-  CASA iOS Project Overview
+  iOS Project Overview
 </h1>
 <br />
 <p align="center"><a href="https://www.typescriptlang.org/" target="_blank"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /></a>&nbsp;<a href="https://github.com/jaredh159/tailwind-react-native-classnames" target="_blank"><img src="https://img.shields.io/badge/tailwindcss-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white"/></a>&nbsp;<a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/react native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></a>&nbsp;<a href="https://jestjs.io/" target="_blank"><img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" target="_blank"/></a>
@@ -9,7 +9,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-⚖️ Court case contact managment app for learning development.
+⚖️ Court case contact managment app for learning development (L&D).
 
 <!-- GETTING STARTED -->
 
