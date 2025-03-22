@@ -9,7 +9,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-Court case contact managment app for learning development.
+⚖️ Court case contact managment app for learning development.
 
 <!-- GETTING STARTED -->
 
