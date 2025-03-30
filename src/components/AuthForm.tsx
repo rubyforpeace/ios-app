@@ -36,17 +36,17 @@ const AuthForm: React.FC<LoginFieldProps> = ({
   return (
     <>
       <TextInput
-        style={tw`flex text-white border-white border border-2 border-rounded rounded-3xl w-[70] h-10`}
+        style={tw`flex text-[#434343] border-[#434343] border border-2 border-rounded rounded-3xl w-[70] h-10`}
         placeholder="Email"
-        placeholderTextColor="white"
+        placeholderTextColor="#434343"
         autoCapitalize="none"
         autoCorrect={false}
         onChangeText={setEmail}
       />
       <TextInput
-        style={tw`flex text-white border-white border border-2 border-rounded rounded-3xl w-[70] h-10`}
+        style={tw`flex text-[#434343] border-[#434343] border border-2 border-rounded rounded-3xl w-[70] h-10`}
         placeholder="Password"
-        placeholderTextColor="white"
+        placeholderTextColor="#434343"
         secureTextEntry
         autoCapitalize="none"
         autoCorrect={false}
@@ -56,7 +56,7 @@ const AuthForm: React.FC<LoginFieldProps> = ({
       {errorMessage && <Text style={tw`pl-4 text-red-500`}>{errorMessage}</Text>}
       <Button
         buttonStyle={tw`flex bg-[#ea5a4e] rounded-3xl w-40 h-10  flex justify-center items-center
-          ${!email || !password ? 'bg-gray-400' : 'bg-[#ea5a4e]'}`}
+          ${!email || !password ? 'bg-gray-400' : 'bg-[#3a9ca6]'}`}
         textStyle={tw`text-xl font-bold text-white`}
         title="Sign In"
         onPress={handleSignIn}
@@ -75,7 +75,7 @@ const AuthForm: React.FC<LoginFieldProps> = ({
               Your session will stay active until you sign out.
             </Text>
             <Pressable
-              style={tw`rounded-2xl px-4 py-2 bg-[#345073]`}
+              style={tw`rounded-2xl px-4 py-2 bg-[#3a9ca6]`}
               onPress={() => setModalVisible(!modalVisible)}>
               <Text style={tw`text-white font-bold text-center`}>OK</Text>
             </Pressable>
