@@ -17,13 +17,13 @@ const CaseContactCreateScreen = () => {
   };
 
   return (
-    <View style={tw`flex items-center gap-3 flex-1 bg-[#d5d7da]`}>
+    <View style={tw`flex items-center gap-3 flex-1 bg-[#535353]`}>
       <View style={tw`flex-col justify-center h-1/6`}>
-        <Text style={tw`text-3xl flex justify-start font-bold`}>Case Contact Create</Text>
+        <Text style={tw`text-3xl text-white flex justify-start font-bold`}>Case Contact Create</Text>
       </View>
 
-      <View style={tw`flex justify-around items-center h-4/6 w-80`}>
-        <ScrollView style={tw`flex p-2 flex-col h-5/6 bg-[#c0c5cd] rounded-xl w-80`}>
+      <View style={tw`flex justify-around items-center rounded-xl bg-[#FEFEFE] h-4/6 w-80`}>
+        <ScrollView style={tw`flex p-2 flex-col h-5/6 rounded-xl w-80`}>
           <RenderFormPages currentPage={currentPage} />
         </ScrollView>
 
@@ -31,16 +31,16 @@ const CaseContactCreateScreen = () => {
           {currentPage > 1 && currentPage < 4 && (
             <Button
               title="Previous"
-              textStyle={tw`font-bold text-lg`}
+              textStyle={tw`font-bold text-[#3A9BA4] text-lg`}
               onPress={handlePreviousPage}
             />
           )}
           {currentPage < 4 ? (
-            <Button title="Next" textStyle={tw`font-bold text-lg`} onPress={handleNextPage} />
+            <Button title="Next" textStyle={tw`font-bold text-[#3A9BA4] text-lg`} onPress={handleNextPage} />
           ) : (
             <Button
               title="Previous"
-              textStyle={tw`font-bold text-lg`}
+              textStyle={tw`font-bold text-[#3A9BA4] text-lg`}
               onPress={handlePreviousPage}
             />
           )}

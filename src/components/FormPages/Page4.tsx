@@ -48,7 +48,7 @@ const Page4 = ({
     />
     <Text style={tw`text-center`}>
       <Button
-        buttonStyle={tw`flex justify-center items-center bg-[#ea5a4e] rounded-3xl w-[30] h-[10] justify-center`}
+        buttonStyle={tw`flex justify-center items-center bg-[#3A9BA4] rounded-3xl w-[30] h-[10] justify-center`}
         textStyle={tw`text-xl font-bold text-white text-center`}
         title="Submit"
         onPress={() => submit(miles, hours, minutes, date, allCheckboxes)}
