@@ -18,21 +18,21 @@ const RootStack = createNativeStackNavigator();
 
 function CustomTabBar({ navigation }) {
   return (
-    <View style={tw`flex-row pb-10 items-center justify-around h-1/8 w-full bg-[#345073] py-1`}>
+    <View style={tw`flex-row pb-10 items-center justify-around h-1/8 w-full bg-[#434343] py-1`}>
       <Button
-        buttonStyle={tw`flex justify-center items-center bg-[#ea5a4e] rounded-3xl w-[30] h-[10]`}
+        buttonStyle={tw`flex justify-center items-center bg-[#3a9ca6] rounded-3xl w-[30] h-[10]`}
         textStyle={tw`text-xl font-bold text-white`}
         title="My Cases"
         onPress={() => navigation.navigate('CaseContactListScreen')}
       />
       <Button
-        buttonStyle={tw`flex justify-center items-center bg-[#ea5a4e] rounded-3xl w-[25] h-[10]`}
+        buttonStyle={tw`flex justify-center items-center bg-[#3a9ca6] rounded-3xl w-[25] h-[10]`}
         textStyle={tw`text-xl font-bold text-white`}
         title="Create"
         onPress={() => navigation.navigate('CaseContactCreateScreen')}
       />
       <Button
-        buttonStyle={tw`flex justify-center items-center bg-[#ea5a4e] rounded-3xl w-[30] h-[10]`}
+        buttonStyle={tw`flex justify-center items-center bg-[#3a9ca6] rounded-3xl w-[30] h-[10]`}
         textStyle={tw`text-xl font-bold text-white`}
         title="Account"
         onPress={() => navigation.navigate('AccountScreen')}
